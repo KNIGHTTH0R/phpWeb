@@ -1,0 +1,287 @@
+category Name 1:AE:2:AW:3:CE:4:CW:5:Asia:6:Europe:7:Cuba:8:Jamaica:9:Mexico:10:Dominican
+
+product_tour_type 1:bus:2:plane:3:others
+
+ticket_mandatory  0:false:1:true
+
+-----------------------------HOW TO USE DAO-----------
+
+>>>>>>>>example below >>>>>>>>>>>>
+more examples inside the test files (testProduct etc.)
+
+
+*** important **** you have to set the id for the data models before sent it to somewhere else!!!!!!
+example:
+  	$DAO = new productDAO();
+	$result = new $product ($a,$b,$c);
+	$result->setId(1);
+	$DAO->editProduct($result);
+
+-------------------------------------------------------------------------
+$DAO = new productDAO();
+$result = $DAO->getProduct(1);
+$id = $result->getId();
+
+//continue
+$products = $DAO->getProducts();
+	foreach ( $products as $product ) {
+			echo '<tr>';
+			echo '<td>' . $product->getId (). '</a></td>';
+			echo '<td>' . $product->getTitle(). '</td>';
+			echo '<td>' . $product->getTourType(). '</td>';
+			echo '<td>' . $product->getCityOfStart(). '</td>';
+			echo '<td>' . $product->getCityOfEnd(). '</td>';
+			echo '<td>' . $product->getNumberOfDays(). '</td>';
+			echo '<td>' . $product->getDescription(). '</td>';
+			echo '<td>' . $product->getTerms(). '</td>';
+			echo '<td>' . $product->getHotel(). '</td>';
+			echo '<td>' . $product->getTicket(). '</td>';
+			echo '<td>' . $product->getFood(). '</td>';
+			echo '<td>' . $product->getAdditional(). '</td>';
+			echo '<td>' . $product->getPdf(). '</td>';
+			echo '<td>' . $product->getSingle(). '</td>';
+			echo '<td>' . $product->getDouble(). '</td>';
+			echo '<td>' . $product->getTriple(). '</td>';
+			echo '<td>' . $product->getQuard(). '</td>';
+			echo '<td>' . $product->getDiscount(). '</td>';
+			echo '<td>' . $product->getCategoryId(). '</td>';
+			
+			echo '</tr>';
+		}
+
+----------------------------------------------------------
+
+--------------------------DAO-----------------------------
+
+---------------------product DAO -----------------------
+getProducts(); // return ALL DATA
+
+getProduct($id);//get one of the record
+
+addProduct($product); // insert qurray// parameter is using product model;
+
+deleteProduct($id); //delete
+
+editProduct($id,$title,$tourType, $cos, $coe, $nod,
+			$description,$terms,$hotel,$ticket,$food,$additional,
+			$pdf,$single,$double,$tripe,$quard,$discount,$categoryId);
+//the first id is the id which you want to delete;
+----------------------------------------------------------
+
+------------------categoryDAO-------------------------
+
+pre-set ---> 1:AE:2:AW:3:CE:4:CW:5:Asia:6:Europe:7:Cuba:8:Jamaica:9:Mexico:10:Dominican
+
+getCategories(); // return ALL DATA
+
+getCategory($id);//get one of the record
+
+addCategory($category); // insert qurray// parameter is using category model;
+
+deleteCategory($id); //delete
+
+editCategory($id,$name);
+-----------------------------------------------------------
+
+------------------pictureDAO--------------------------
+getPictures(); // return ALL DATA
+
+getPicture($id);//get one of the record
+
+addPicture($picture); // insert qurray// parameter is using picture model;
+
+deletePicture($id); //delete
+
+editPicture($url, $description, $product_ID, $id);
+
+--------------------------------------------------------
+
+-----------------scheduleDAO-----------------------------
+
+getScheduleA(); // return ALL DATA
+
+getSchedule($id);//get one of the record
+
+addSchedule($schedule); // insert qurray// parameter is using schedule model;
+
+deleteSchedule($id); //delete
+
+editSchedule($id, $day, $description, $hotel, $productId, $breakfast, $lunch, $dinner);
+-----------------------------------------------------------
+
+-----------------ticketDAO--------------------------------
+getTickets(); // return ALL DATA
+
+getTicket($id);//get one of the record
+
+addTicket($ticket); // insert qurray// parameter is using ticket model;
+
+deleteTicket($id); //delete
+
+editTicket($id,$title, $adult, $enfant, $child,
+	$teenager,$senior,$mandatory,$product_ID);
+-------------------------------------------------------------------
+
+---------------MODELS-----------------
+
+-------------------------------Product model----------------------------
+--------------------constructor -----------
+product($title,$tourType,$cityOfStart,$cityOfEnd,$numberOfDays,
+				$description,$terms,$hotel,$ticket,$food,$additional,$pdf,
+				$single,$double,$triple,$quardriple,$discount,$categoryId)
+---------getters and setters------------------
+setId($id)
+getId()
+
+setTitle($title)
+getTitle()
+
+setTourType($type) 1:bus:2:plane:3:others
+getTourType()
+
+setCityOfStart($COS)
+getCityOfStart()
+
+setCityOfEnd($COE)
+getCityOfEnd()
+
+setNumberOfDays($NOD)
+getNumberOfDays()
+
+setDescription($description)
+getDescription()
+
+setTerms($terms) // terms and agreement
+getTerms()
+
+setHotel($hotel) //price of hotel (total)
+getHotel()
+
+setTicket($ticket) //price of ticket (total)
+getTicket()
+
+setFood($food) //price of food (total)
+getFood()
+
+setAdditional($add) // additional charge (total)
+getAddtiional()
+
+setPdf($link) // store the link of the pdf file
+getPdf()
+
+setSingle($price) // price for a single person
+getSingle()
+
+setDouble($price)
+getDouble()
+
+setTriple($price)
+getTriple()
+
+setQuard($price)
+getQuard()
+
+setDiscount($percentage)//percentage of the discount
+getDiscount()
+
+setCategoryId($id)// the key value to match the category
+getCategoryId()
+-------------------------------------------------------------------------
+
+---------------category model-------------------------
+
+-------constructor------------
+category($name);
+--------getters and setters---------
+
+getId();
+setId($id);
+
+getName();
+setName($name);
+----------------------------------
+
+
+--------------------picture model-------------------------------------
+
+------constructor--------
+picture($picture_URL,$picture_description,$picture_product_ID);
+
+-------getters and setters-------------
+getPictureID();
+setPictureID($id);
+
+getPictureDescription();
+setPictureDescription($description);
+
+getPictureURL();
+setPictureURL($url);
+
+getPictureProductID();
+setPictureProductID($productId);//the way to be linked with product table
+------------------------------------------------------------------
+
+
+----------------schedule model------------------------------------------
+------------constructor--------------
+schedule($day,$description,$hotel,$productId,$breakfast,$lunch,$dinner);
+
+--------getters and setters------------
+getId();
+setId($id);
+
+getDay();
+setDay($numberOfTheDay); // number of the day means which day is it (etc. first day = 1)
+
+getDescription();
+setDescription($description);
+
+getHotel();
+setHotel($NameOfHotel);
+
+getProductId();
+setProductId();
+
+getBreakfast();
+setBreakfast($breakfast);
+
+getLunch();
+setLunch($lunch);
+
+getDinner();
+setDinner($dinner);
+--------------------------------
+
+
+---------ticket model-------------------
+---------constructor--------------------
+ticket($title,$adult,$enfants,$child,$teen,$senior,$mandatory,$productID);
+
+------getters and setters---------------
+getId();
+setId($id);
+
+getTitle();
+setTitle($title);
+
+getAdult();
+setAdult($adult);
+
+getEnfants();
+setEnfants($enfants);
+
+getChild();
+setChild($child);
+
+getTeen();
+setTeen($teenager);
+
+getSenior();
+setSenior($senior);
+
+getMandatory();// 0:false:1:true
+setMandatory($mandatory);
+
+getProductId();
+setProductId($id);
+---------------------------------------

@@ -1,0 +1,317 @@
+/* CSS Document */
+
+/* 
+This code will reset the default margins, padding, and border
+settings to assist with cross browser compatibility.
+   */
+
+/* CSS Reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+	blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn,
+	em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+	b, u, i, center, dl, dt, dd, ol, ul, li, form, label, table, caption,
+	tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,
+	figure, figcaption, footer, header, hgroup, menu, nav, output, ruby,
+	section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+/* END CSS Reset*/
+
+body, html {
+    font-family: "Helvetica Neue", Helvetica, "Avenir Next", Avenir, "Lantinghei SC", "Hiragino Sans GB", "Microsoft YaHei", 微软雅黑, STHeiti, "WenQuanYi Micro Hei", SimSun, sans-serif;
+    min-width: 1200px;
+    color: rgb(60, 60, 60);
+    background: rgb(242, 242, 242);
+}
+
+div {
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	/* for debuging
+	border: 1px solid green;
+	*/
+	position: relative;
+	z-index: 0;
+}
+
+div.detail_common {
+	width: 1280px;
+	background: white;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-top: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 30px;
+	box-shadow: 1px 1px 4px #ccc;
+	font-size: 14px;
+}
+
+#detail_title {
+	height: 26px;
+	padding-top: 17px;
+	text-indent: 35px;
+}
+
+#detail_main {
+	height: 330px;
+	padding-top: 10px;
+}
+
+#detail_pics {
+	margin: 0px;
+	width: 40%;
+	height: 320px;
+	float: left;
+}
+
+#detail_summary {
+	margin: 0px;
+	width: 59%;
+	height: 320px;
+	float: right;
+}
+
+#detail_price {
+	margin: 0px;
+	width: 100%;
+	height: 50px;
+	margin-top: 5px;
+}
+
+#detail_information {
+	margin: 0px;
+	width: 100%;
+	height: 50px;
+	font-size: 12px;
+}
+
+#detail_information_right {
+	margin: 0px;
+	width: 69%;
+	height: 50px;
+	float: right;
+}
+
+#detail_information_left {
+	margin: 0px;
+	width: 29%;
+	height: 50px;
+	float: left;
+}
+
+#detail_summary_desc {
+	margin-top: 20px;
+	width: 100%;
+	height: 100px;
+	
+}
+
+#detail_code {
+	margin: 0px;
+	width: 100%;
+	height: 25px;
+}
+
+#detail_departure {
+	margin: 0px;
+	width: 100%;
+	height: 25px;
+}
+
+#detail_days {
+	margin: 0px;
+	width: 100%;
+	height: 25px;
+}
+
+#detail_arrival {
+	margin: 0px;
+	width: 100%;
+	height: 25px;
+}
+
+#detail_schedule_wraper {
+	height: 740px;
+}
+
+#detail_schedule {
+	height: 370px;
+}
+
+#detail_schedule_title {
+	height: 40px;
+	font-weight: bold;
+	font-size: large;
+}
+
+#detail_schedule_desc {
+	height: 140px;
+}
+
+#detail_schedule_pic {
+	height: 140px;
+}
+
+#detail_schedule_hotel {
+	height: 40px;
+}
+
+div.detail_left {
+	margin: 0px;
+	width: 8%;
+	float: left;
+	font-weight: bold;
+	padding-left: 10px;
+}
+
+div.schedule_left {
+	padding-left: 40px;
+}
+
+div.detail_right {
+	margin: 0px;
+	width: 88%;
+	float: right;
+}
+
+#detail_price_desc {
+	height: 400px;
+}
+
+table {
+	border-spacing: 0;
+	border-collapse: collapse;
+	background-color: transparent;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+
+table.table-bordered {
+	border: 1px solid black;
+}
+
+table.table {
+	width: 98%;
+	max-width: 98%;
+	margin-bottom: 20px;
+}
+
+th {
+	text-align: left;
+	border: 1px solid silver;
+	padding-left: 3px;
+	height: 22px;
+}
+
+tr {
+	display: table-row;
+	vertical-align: inherit;
+	border: 1px solid silver;
+}
+
+td {
+	border: 1px solid silver;
+	height: 22px;
+	padding-left: 3px;
+}
+
+tbody {
+	display: table-row-group;
+	vertical-align: middle;
+	border-color: inherit;
+}
+
+thead {
+	display: table-header-group;
+	vertical-align: middle;
+	border-color: inherit;
+}
+
+.h6, h6 {
+	font-size: 12px;
+}
+
+blockquote {
+	padding: 10px 20px;
+	margin: 0 0 20px;
+	font-size: 14px;
+	border-left: 5px solid #eee;
+	display: block;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 20px;
+	-webkit-margin-end: 20px;
+}
+
+#detail_price_desc_right {
+	height: auto;
+}
+
+#detail_price_desc_left {
+	height: 400px;
+	background-image: url("../images/budget-calculator.png");
+	background-repeat: no-repeat;
+}
+
+#detail_price_title {
+	color: #FF6700;
+	height: 30px;
+}
+
+#detail_price_wrap {
+	height: 560px;
+}
+
+#detail_price_desc {
+	height: auto;
+}
+
+#detail_terms_conditions {
+	height: 500px;
+	margin-bottom: 20px;
+	
+}
+
+#detail_terms_conditions_right {
+	height: auto;
+}
+
+#detail_terms_conditions_left {
+	height: 400px;
+	background-image: url("../images/information.png");
+	background-repeat: no-repeat;
+}
+
+#detail_terms_conditions_title {
+	height: 30px;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom:10px;
+}
+
+#detail_terms_conditions_contents {
+	height: auto;
+}
+
+span.dollar_red {
+	color: red;
+}
+
+span.big_font {
+	font-size: xx-large;
+}
+
+
+.mmd2 {
+    border-bottom: 1px dashed #d7d7d7;
+    margin: 15px 0;
+}

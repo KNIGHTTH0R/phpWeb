@@ -1,0 +1,569 @@
+[14-Aug-2017 15:44:11 UTC] PHP Warning:  file_get_contents(http://www.ishalltravel.com/css/styles.css): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ishal463/public_html/web/html/list.php on line 66
+[14-Aug-2017 15:44:16 UTC] PHP Warning:  file_get_contents(http://www.ishalltravel.com/css/styles.css): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ishal463/public_html/web/html/list.php on line 66
+[14-Aug-2017 15:44:21 UTC] PHP Warning:  file_get_contents(http://www.ishalltravel.com/css/styles.css): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ishal463/public_html/web/html/list.php on line 66
+[14-Aug-2017 15:50:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function store_result() on null in /home/ishal463/public_html/web/DAO/pictureDAO.php:81
+Stack trace:
+#0 /home/ishal463/public_html/web/html/list.php(147): pictureDAO->getFirstPictureByProduct(NULL)
+#1 {main}
+  thrown in /home/ishal463/public_html/web/DAO/pictureDAO.php on line 81
+[14-Aug-2017 15:51:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getLink() on null in /home/ishal463/public_html/web/html/index_carousel.php:21
+Stack trace:
+#0 /home/ishal463/public_html/web/html/cruise.php(25): require_once()
+#1 {main}
+  thrown in /home/ishal463/public_html/web/html/index_carousel.php on line 21
+[14-Aug-2017 15:51:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getLink() on null in /home/ishal463/public_html/web/html/index_carousel.php:21
+Stack trace:
+#0 /home/ishal463/public_html/web/html/cruise.php(25): require_once()
+#1 {main}
+  thrown in /home/ishal463/public_html/web/html/index_carousel.php on line 21
+[14-Aug-2017 15:51:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getLink() on null in /home/ishal463/public_html/web/html/index_carousel.php:21
+Stack trace:
+#0 /home/ishal463/public_html/web/html/central_america_cuba.php(25): require_once()
+#1 {main}
+  thrown in /home/ishal463/public_html/web/html/index_carousel.php on line 21
+[14-Aug-2017 15:51:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function store_result() on null in /home/ishal463/public_html/web/DAO/pictureDAO.php:81
+Stack trace:
+#0 /home/ishal463/public_html/web/html/list.php(147): pictureDAO->getFirstPictureByProduct(NULL)
+#1 {main}
+  thrown in /home/ishal463/public_html/web/DAO/pictureDAO.php on line 81
+[14-Aug-2017 15:51:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function store_result() on null in /home/ishal463/public_html/web/DAO/pictureDAO.php:46
+Stack trace:
+#0 /home/ishal463/public_html/web/html/index.php(65): pictureDAO->getPictureByProduct(3)
+#1 {main}
+  thrown in /home/ishal463/public_html/web/DAO/pictureDAO.php on line 46
+[14-Aug-2017 15:51:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getLink() on null in /home/ishal463/public_html/web/html/index_carousel.php:21
+Stack trace:
+#0 /home/ishal463/public_html/web/html/visa_canada_cn.php(25): require_once()
+#1 {main}
+  thrown in /home/ishal463/public_html/web/html/index_carousel.php on line 21
+[14-Aug-2017 15:53:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getLink() on null in /home/ishal463/public_html/web/html/index_carousel.php:21
+Stack trace:
+#0 /home/ishal463/public_html/web/html/air_ticket.php(25): require_once()
+#1 {main}
+  thrown in /home/ishal463/public_html/web/html/index_carousel.php on line 21
+[14-Aug-2017 15:58:25 UTC] PHP Fatal error:  Uncaught Error: Call to a member function store_result() on null in /home/ishal463/public_html/web/DAO/pictureDAO.php:46
+Stack trace:
+#0 /home/ishal463/public_html/web/html/index.php(65): pictureDAO->getPictureByProduct(3)
+#1 {main}
+  thrown in /home/ishal463/public_html/web/DAO/pictureDAO.php on line 46
+[14-Aug-2017 15:58:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function store_result() on null in /home/ishal463/public_html/web/DAO/pictureDAO.php:81
+Stack trace:
+#0 /home/ishal463/public_html/web/html/list.php(147): pictureDAO->getFirstPictureByProduct(NULL)
+#1 {main}
+  thrown in /home/ishal463/public_html/web/DAO/pictureDAO.php on line 81
+[14-Aug-2017 15:59:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getLink() on null in /home/ishal463/public_html/web/html/index_carousel.php:21
+Stack trace:
+#0 /home/ishal463/public_html/web/html/air_ticket.php(25): require_once()
+#1 {main}
+  thrown in /home/ishal463/public_html/web/html/index_carousel.php on line 21
+[14-Aug-2017 15:59:45 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getLink() on null in /home/ishal463/public_html/web/html/index_carousel.php:21
+Stack trace:
+#0 /home/ishal463/public_html/web/html/visa_canada_cn.php(25): require_once()
+#1 {main}
+  thrown in /home/ishal463/public_html/web/html/index_carousel.php on line 21
+[14-Aug-2017 15:59:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getLink() on null in /home/ishal463/public_html/web/html/index_carousel.php:21
+Stack trace:
+#0 /home/ishal463/public_html/web/html/visa_canada_cn.php(25): require_once()
+#1 {main}
+  thrown in /home/ishal463/public_html/web/html/index_carousel.php on line 21
+[14-Aug-2017 17:05:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function store_result() on null in /home/ishal463/public_html/web/DAO/pictureDAO.php:46
+Stack trace:
+#0 /home/ishal463/public_html/web/html/index.php(65): pictureDAO->getPictureByProduct(3)
+#1 {main}
+  thrown in /home/ishal463/public_html/web/DAO/pictureDAO.php on line 46
+[14-Aug-2017 18:29:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function store_result() on null in /home/ishal463/public_html/web/DAO/pictureDAO.php:81
+Stack trace:
+#0 /home/ishal463/public_html/web/html/list.php(147): pictureDAO->getFirstPictureByProduct(NULL)
+#1 {main}
+  thrown in /home/ishal463/public_html/web/DAO/pictureDAO.php on line 81
+[14-Aug-2017 18:29:17 UTC] PHP Fatal error:  Uncaught Error: Call to a member function store_result() on null in /home/ishal463/public_html/web/DAO/pictureDAO.php:81
+Stack trace:
+#0 /home/ishal463/public_html/web/html/list.php(147): pictureDAO->getFirstPictureByProduct(NULL)
+#1 {main}
+  thrown in /home/ishal463/public_html/web/DAO/pictureDAO.php on line 81
+[14-Aug-2017 18:34:26 UTC] PHP Fatal error:  Uncaught Error: Call to a member function store_result() on null in /home/ishal463/public_html/web/DAO/pictureDAO.php:81
+Stack trace:
+#0 /home/ishal463/public_html/web/html/list.php(148): pictureDAO->getFirstPictureByProduct(5)
+#1 {main}
+  thrown in /home/ishal463/public_html/web/DAO/pictureDAO.php on line 81
+[14-Aug-2017 18:37:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function store_result() on null in /home/ishal463/public_html/web/DAO/pictureDAO.php:81
+Stack trace:
+#0 /home/ishal463/public_html/web/html/list.php(148): pictureDAO->getFirstPictureByProduct(NULL)
+#1 {main}
+  thrown in /home/ishal463/public_html/web/DAO/pictureDAO.php on line 81
+[14-Aug-2017 18:40:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function store_result() on null in /home/ishal463/public_html/web/DAO/pictureDAO.php:81
+Stack trace:
+#0 /home/ishal463/public_html/web/html/list.php(148): pictureDAO->getFirstPictureByProduct(5)
+#1 {main}
+  thrown in /home/ishal463/public_html/web/DAO/pictureDAO.php on line 81
+[14-Aug-2017 18:45:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function store_result() on null in /home/ishal463/public_html/web/DAO/pictureDAO.php:46
+Stack trace:
+#0 /home/ishal463/public_html/web/html/detail.php(21): pictureDAO->getPictureByProduct(0)
+#1 {main}
+  thrown in /home/ishal463/public_html/web/DAO/pictureDAO.php on line 46
+[14-Aug-2017 18:51:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function store_result() on null in /home/ishal463/public_html/web/DAO/pictureDAO.php:46
+Stack trace:
+#0 /home/ishal463/public_html/web/html/detail.php(21): pictureDAO->getPictureByProduct(0)
+#1 {main}
+  thrown in /home/ishal463/public_html/web/DAO/pictureDAO.php on line 46
+[14-Aug-2017 18:51:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function store_result() on null in /home/ishal463/public_html/web/DAO/pictureDAO.php:46
+Stack trace:
+#0 /home/ishal463/public_html/web/html/detail.php(21): pictureDAO->getPictureByProduct(0)
+#1 {main}
+  thrown in /home/ishal463/public_html/web/DAO/pictureDAO.php on line 46
+[14-Aug-2017 18:51:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function store_result() on null in /home/ishal463/public_html/web/DAO/pictureDAO.php:46
+Stack trace:
+#0 /home/ishal463/public_html/web/html/detail.php(21): pictureDAO->getPictureByProduct(5)
+#1 {main}
+  thrown in /home/ishal463/public_html/web/DAO/pictureDAO.php on line 46
+[14-Aug-2017 18:51:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function store_result() on null in /home/ishal463/public_html/web/DAO/pictureDAO.php:46
+Stack trace:
+#0 /home/ishal463/public_html/web/html/detail.php(21): pictureDAO->getPictureByProduct(1)
+#1 {main}
+  thrown in /home/ishal463/public_html/web/DAO/pictureDAO.php on line 46
+[14-Aug-2017 19:03:45 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ishal463/public_html/web/DAO/scheduleDAO.php on line 223
+[14-Aug-2017 19:03:45 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getCategoryId() on null in /home/ishal463/public_html/web/html/detail.php:72
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/detail.php on line 72
+[14-Aug-2017 19:03:48 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ishal463/public_html/web/DAO/scheduleDAO.php on line 223
+[14-Aug-2017 19:03:48 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type picture as array in /home/ishal463/public_html/web/html/detail.php:121
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/detail.php on line 121
+[14-Aug-2017 19:07:28 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ishal463/public_html/web/DAO/scheduleDAO.php on line 223
+[14-Aug-2017 19:07:52 UTC] PHP Warning:  file_get_contents(http://www.ishalltravel.com/css/styles.css): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ishal463/public_html/web/html/index.php on line 118
+[14-Aug-2017 19:07:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getLink() on null in /home/ishal463/public_html/web/html/index_carousel.php:21
+Stack trace:
+#0 /home/ishal463/public_html/web/html/index.php(127): require_once()
+#1 {main}
+  thrown in /home/ishal463/public_html/web/html/index_carousel.php on line 21
+[14-Aug-2017 19:09:42 UTC] PHP Warning:  file_get_contents(http://ishalltravel.com/css/styles.css): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ishal463/public_html/web/html/index.php on line 118
+[14-Aug-2017 19:09:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getLink() on null in /home/ishal463/public_html/web/html/index_carousel.php:21
+Stack trace:
+#0 /home/ishal463/public_html/web/html/index.php(127): require_once()
+#1 {main}
+  thrown in /home/ishal463/public_html/web/html/index_carousel.php on line 21
+[14-Aug-2017 19:21:21 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ishal463/public_html/web/DAO/scheduleDAO.php on line 223
+[14-Aug-2017 19:23:55 UTC] PHP Warning:  file_get_contents(http://www.ishalltravel.com/css/styles.css): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ishal463/public_html/web/html/index.php on line 118
+[14-Aug-2017 19:23:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getTitle() on null in /home/ishal463/public_html/web/html/index_carousel.php:25
+Stack trace:
+#0 /home/ishal463/public_html/web/html/index.php(127): require_once()
+#1 {main}
+  thrown in /home/ishal463/public_html/web/html/index_carousel.php on line 25
+[14-Aug-2017 19:23:55 UTC] PHP Warning:  file_get_contents(http://ishalltravel.com/css/styles.css): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ishal463/public_html/web/html/index.php on line 118
+[14-Aug-2017 19:23:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getTitle() on null in /home/ishal463/public_html/web/html/index_carousel.php:25
+Stack trace:
+#0 /home/ishal463/public_html/web/html/index.php(127): require_once()
+#1 {main}
+  thrown in /home/ishal463/public_html/web/html/index_carousel.php on line 25
+[14-Aug-2017 19:24:00 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ishal463/public_html/web/DAO/scheduleDAO.php on line 223
+[14-Aug-2017 19:26:24 UTC] PHP Warning:  file_get_contents(http://ishalltravel.com/css/styles.css): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ishal463/public_html/web/html/index.php on line 118
+[14-Aug-2017 19:26:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getTitle() on null in /home/ishal463/public_html/web/html/index_carousel.php:25
+Stack trace:
+#0 /home/ishal463/public_html/web/html/index.php(127): require_once()
+#1 {main}
+  thrown in /home/ishal463/public_html/web/html/index_carousel.php on line 25
+[14-Aug-2017 19:28:32 UTC] PHP Warning:  file_get_contents(http://ishalltravel.com/css/styles.css): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home/ishal463/public_html/web/html/index.php on line 118
+[14-Aug-2017 19:28:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getTitle() on null in /home/ishal463/public_html/web/html/index_carousel.php:25
+Stack trace:
+#0 /home/ishal463/public_html/web/html/index.php(127): require_once()
+#1 {main}
+  thrown in /home/ishal463/public_html/web/html/index_carousel.php on line 25
+[14-Aug-2017 19:30:23 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/ishal463/public_html/web/DAO/scheduleDAO.php:186
+Stack trace:
+#0 /home/ishal463/public_html/web/html/detail.php(204): scheduleDAO->getScheduleByDay('5', 1)
+#1 {main}
+  thrown in /home/ishal463/public_html/web/DAO/scheduleDAO.php on line 186
+[14-Aug-2017 19:30:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/ishal463/public_html/web/DAO/scheduleDAO.php:186
+Stack trace:
+#0 /home/ishal463/public_html/web/html/detail.php(204): scheduleDAO->getScheduleByDay('5', 1)
+#1 {main}
+  thrown in /home/ishal463/public_html/web/DAO/scheduleDAO.php on line 186
+[14-Aug-2017 19:30:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getTitle() on null in /home/ishal463/public_html/web/html/index_carousel.php:25
+Stack trace:
+#0 /home/ishal463/public_html/web/html/index.php(127): require_once()
+#1 {main}
+  thrown in /home/ishal463/public_html/web/html/index_carousel.php on line 25
+[14-Aug-2017 19:36:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/ishal463/public_html/web/DAO/scheduleDAO.php:186
+Stack trace:
+#0 /home/ishal463/public_html/web/html/detail.php(204): scheduleDAO->getScheduleByDay('5', 1)
+#1 {main}
+  thrown in /home/ishal463/public_html/web/DAO/scheduleDAO.php on line 186
+[14-Aug-2017 19:36:36 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/ishal463/public_html/web/DAO/scheduleDAO.php:186
+Stack trace:
+#0 /home/ishal463/public_html/web/html/detail.php(204): scheduleDAO->getScheduleByDay('5', 1)
+#1 {main}
+  thrown in /home/ishal463/public_html/web/DAO/scheduleDAO.php on line 186
+[14-Aug-2017 19:38:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function bind_param() on boolean in /home/ishal463/public_html/web/DAO/scheduleDAO.php:186
+Stack trace:
+#0 /home/ishal463/public_html/web/html/detail.php(204): scheduleDAO->getScheduleByDay(5, 1)
+#1 {main}
+  thrown in /home/ishal463/public_html/web/DAO/scheduleDAO.php on line 186
+[14-Aug-2017 19:41:22 UTC] PHP Fatal error:  Uncaught Error: Class 'admin' not found in /home/ishal463/public_html/web/DAO/scheduleDAO.php:200
+Stack trace:
+#0 /home/ishal463/public_html/web/html/detail.php(204): scheduleDAO->getScheduleByDay(5, 1)
+#1 {main}
+  thrown in /home/ishal463/public_html/web/DAO/scheduleDAO.php on line 200
+[14-Aug-2017 19:49:04 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getTitle() on null in /home/ishal463/public_html/web/html/index_carousel.php:25
+Stack trace:
+#0 /home/ishal463/public_html/web/html/index.php(127): require_once()
+#1 {main}
+  thrown in /home/ishal463/public_html/web/html/index_carousel.php on line 25
+[14-Aug-2017 19:57:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getTitle() on null in /home/ishal463/public_html/web/html/index_carousel.php:25
+Stack trace:
+#0 /home/ishal463/public_html/web/html/index.php(127): require_once()
+#1 {main}
+  thrown in /home/ishal463/public_html/web/html/index_carousel.php on line 25
+[14-Aug-2017 19:58:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getTitle() on null in /home/ishal463/public_html/web/html/index_carousel.php:25
+Stack trace:
+#0 /home/ishal463/public_html/web/html/index.php(127): require_once()
+#1 {main}
+  thrown in /home/ishal463/public_html/web/html/index_carousel.php on line 25
+[14-Aug-2017 20:00:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getTitle() on null in /home/ishal463/public_html/web/html/index_carousel.php:25
+Stack trace:
+#0 /home/ishal463/public_html/web/html/index.php(127): require_once()
+#1 {main}
+  thrown in /home/ishal463/public_html/web/html/index_carousel.php on line 25
+[14-Aug-2017 20:00:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getCategoryId() on null in /home/ishal463/public_html/web/html/detail.php:75
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/detail.php on line 75
+[14-Aug-2017 20:01:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getCategoryId() on null in /home/ishal463/public_html/web/html/detail.php:75
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/detail.php on line 75
+[14-Aug-2017 20:01:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getCategoryId() on null in /home/ishal463/public_html/web/html/detail.php:75
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/detail.php on line 75
+[14-Aug-2017 20:30:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[14-Aug-2017 20:30:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[14-Aug-2017 20:31:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[14-Aug-2017 20:37:14 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[14-Aug-2017 20:39:23 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[14-Aug-2017 20:40:03 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[14-Aug-2017 20:40:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[14-Aug-2017 20:47:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[14-Aug-2017 20:49:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[14-Aug-2017 20:52:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[14-Aug-2017 20:53:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[14-Aug-2017 20:53:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getDay() on boolean in /home/ishal463/public_html/web/html/detail.php:207
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/detail.php on line 207
+[14-Aug-2017 20:56:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getCategoryId() on null in /home/ishal463/public_html/web/html/detail.php:75
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/detail.php on line 75
+[14-Aug-2017 20:58:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[14-Aug-2017 20:58:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[14-Aug-2017 21:32:45 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getCategoryId() on null in /home/ishal463/public_html/web/html/detail.php:75
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/detail.php on line 75
+[14-Aug-2017 21:32:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getCategoryId() on null in /home/ishal463/public_html/web/html/detail.php:75
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/detail.php on line 75
+[14-Aug-2017 21:32:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getCategoryId() on null in /home/ishal463/public_html/web/html/detail.php:75
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/detail.php on line 75
+[14-Aug-2017 21:32:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getCategoryId() on null in /home/ishal463/public_html/web/html/detail.php:75
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/detail.php on line 75
+[14-Aug-2017 21:45:28 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ishal463/public_html/web/html/list.php:1) in /home/ishal463/public_html/web/html/list.php on line 42
+[14-Aug-2017 21:45:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[14-Aug-2017 21:45:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ishal463/public_html/web/html/detail.php:1) in /home/ishal463/public_html/web/html/detail.php on line 10
+[14-Aug-2017 21:45:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getCategoryId() on null in /home/ishal463/public_html/web/html/detail.php:75
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/detail.php on line 75
+[14-Aug-2017 21:46:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getCategoryId() on null in /home/ishal463/public_html/web/html/detail.php:75
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/detail.php on line 75
+[14-Aug-2017 21:46:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ishal463/public_html/web/html/list.php:1) in /home/ishal463/public_html/web/html/list.php on line 42
+[14-Aug-2017 21:46:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ishal463/public_html/web/html/list.php:1) in /home/ishal463/public_html/web/html/list.php on line 42
+[14-Aug-2017 21:47:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ishal463/public_html/web/html/list.php:1) in /home/ishal463/public_html/web/html/list.php on line 42
+[14-Aug-2017 22:04:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[14-Aug-2017 23:15:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[14-Aug-2017 23:15:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[14-Aug-2017 23:15:36 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[15-Aug-2017 02:07:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[15-Aug-2017 02:07:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[15-Aug-2017 02:09:03 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[15-Aug-2017 02:09:03 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[15-Aug-2017 02:10:17 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[15-Aug-2017 02:10:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[15-Aug-2017 02:12:17 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[15-Aug-2017 02:13:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[15-Aug-2017 02:13:17 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[15-Aug-2017 02:13:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[15-Aug-2017 02:14:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[15-Aug-2017 02:21:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[15-Aug-2017 02:22:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[15-Aug-2017 02:24:14 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[15-Aug-2017 02:25:04 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[15-Aug-2017 02:25:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[15-Aug-2017 02:30:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[15-Aug-2017 02:33:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[15-Aug-2017 02:33:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[15-Aug-2017 02:41:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[15-Aug-2017 02:50:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[15-Aug-2017 03:05:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[15-Aug-2017 12:02:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[15-Aug-2017 12:02:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[15-Aug-2017 12:02:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[15-Aug-2017 12:02:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[15-Aug-2017 12:06:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[15-Aug-2017 12:06:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[15-Aug-2017 12:06:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[15-Aug-2017 12:14:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[15-Aug-2017 12:15:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[15-Aug-2017 12:15:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[15-Aug-2017 12:19:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[15-Aug-2017 12:20:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[15-Aug-2017 12:20:04 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[15-Aug-2017 12:22:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[15-Aug-2017 12:30:04 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[15-Aug-2017 12:33:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[15-Aug-2017 12:33:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[15-Aug-2017 12:34:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[15-Aug-2017 14:36:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[15-Aug-2017 15:21:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[15-Aug-2017 16:19:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[15-Aug-2017 16:20:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[15-Aug-2017 16:23:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[15-Aug-2017 16:23:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[15-Aug-2017 16:45:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[15-Aug-2017 16:46:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[15-Aug-2017 16:55:14 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[15-Aug-2017 16:55:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getID() on null in /home/ishal463/public_html/web/html/index.php:138
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 138
+[15-Aug-2017 17:20:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function isEmpty() in /home/ishal463/public_html/web/html/index.php:139
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/index.php on line 139
+[16-Aug-2017 15:24:53 UTC] PHP Warning:  file_get_contents(http://76.74.235.168:443/web/css/styles.css): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/ishal463/public_html/web/html/index.php on line 118
+[16-Aug-2017 22:40:30 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ishal463/public_html/web/html/list.php:1) in /home/ishal463/public_html/web/html/list.php on line 42
+[16-Aug-2017 22:40:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ishal463/public_html/web/html/detail.php:1) in /home/ishal463/public_html/web/html/detail.php on line 10
+[16-Aug-2017 22:40:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function getCategoryId() on null in /home/ishal463/public_html/web/html/detail.php:94
+Stack trace:
+#0 {main}
+  thrown in /home/ishal463/public_html/web/html/detail.php on line 94

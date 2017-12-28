@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>IShallTravel旅行网</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/script.js"></script>
+    <style>
+        .navbar {
+            min-height: 80px;
+        }
+        
+        .navbar-brand {
+            padding: 0 15px;
+            height: 80px;
+            line-height: 80px;
+        }
+        
+        .navbar-toggle {
+            /* (80px - button height 34px) / 2 = 23px */
+            margin-top: 23px;
+            padding: 9px 10px !important;
+        }
+        
+        @media (min-width: 768px) {
+            .navbar-nav>li>a {
+                /* (80px - line-height of 27px) / 2 = 26.5px */
+                padding-top: 26.5px;
+                padding-bottom: 26.5px;
+                line-height: 27px;
+            }
+        }
+        
+        .navbar .navbar-nav {
+            display: inline-block;
+            float: none;
+        }
+        
+        .navbar .navbar-collapse {
+            text-align: center;
+        }
+
+    </style>
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="col-lg-2 hidden-xs hidden-sm hidden-md">
+            	<a class="navbar-brand" href="#">
+                    <img src="../images/logo/logo_blue_lg.png" style="margin-top: 5%;">
+                </a>         	
+            </div>
+            <div class="col-md-1 hidden-lg">
+            	<a class="navbar-brand" href="#">
+                    <img src="../images/logo/logo_blue_md.png" style="margin-top: 15%;">
+                </a>         	
+            </div>
+            <div class="col-md-11 col-lg-8">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> 
+                    </button>                
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                    	<li class="dropdown">
+                            <a href="#">首页</a>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">美加旅游<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">美国东部游</a></li>
+                                <li><a href="#">美国西部游</a></li>
+                                <li><a href="#">加拿大东部游</a></li>
+                                <li><a href="#">加拿大西部游</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">亚洲旅游<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                            	<li><a href="#">中国</a></li> 
+                                <li><a href="#">亚洲其他地区</a></li>                            
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">欧洲旅游<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">欧洲参团游</a></li>                            
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">中南美洲<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">古巴简介</a></li>
+                                <li><a href="#">牙买加简介</a></li>
+                                <li><a href="#">墨西哥简介</a></li>
+                                <li><a href="#">多米尼加简介</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">游轮<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">游轮公司简介</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">机票<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">购票简介</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">签证保险<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">签证申请(加拿大境内)</a></li>
+                                <li><a href="#">签证申请(中国境内)</a></li>
+                                <li><a href="#">旅游探亲保险</a></li>
+                            </ul>
+                        </li>  
+                        <li class="dropdown">
+                        	<a class="dropdown-toggle" data-toggle="dropdown" href="#">关于我们<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#footer">联系方式</a></li>
+                                <li><a href="#footer">营业时间</a></li>                            
+                            </ul>
+                        </li>                  
+                    </ul>
+                </div>
+          	</div> 
+          	<div class="col-lg-2 hidden-xs hidden-sm hidden-md">
+                <div class="text-center" style="margin-right: 10%;">
+            		<span class="pull-right" style="font-size:0.8em; color:#FFFFFF; margin-top: 2%;">热线电话: <br/>(613) 680-5160<br/>(613) 680-5168</span>
+            	</div>
+            </div> 
+        </div>
+    </nav>
